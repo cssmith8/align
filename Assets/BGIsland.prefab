@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5163264033339229849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5163264033339229543}
+  - component: {fileID: 5163264033339229848}
+  m_Layer: 0
+  m_Name: BGIsland
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5163264033339229543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5163264033339229849}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5163264033339229848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5163264033339229849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6473fa5d0581fc04d80be8e2d2dd2c52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topDecos:
+  - {fileID: 6916936234131426755, guid: 159fee1999634d64991c9a8ebbfb4b6b, type: 3}
+  - {fileID: 8427438672782578340, guid: 05e023aa337ff164caff7ef4716d4e55, type: 3}
+  - {fileID: 3803095618517453477, guid: 50172d85da6cb9745a6df18da8de94dd, type: 3}
+  - {fileID: 135242148152585766, guid: b7882c75e112f4e448a1b76f1279400d, type: 3}
+  - {fileID: 4669776022648664386, guid: 25c37c07eaf969f4a89a45dfb62d6480, type: 3}
+  - {fileID: 3360838031934631709, guid: 2939a605df63a8e4b8f1a842800e4ead, type: 3}
+  aboveRocks: {fileID: 1769728857885646815, guid: 093a1bb1ea5e6a147846f4494515996d,
+    type: 3}
+  belowRocks: {fileID: 3443831666938011583, guid: ff4cc33aa1a2027418f673bbe12b5ee6,
+    type: 3}
