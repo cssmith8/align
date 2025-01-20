@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.002260176, g: 0.0010291474, b: 0.0025692368, a: 1}
+  m_IndirectSpecularColor: {r: 0.002190824, g: 0.00086192606, b: 0.0026199836, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1939,7 +1939,7 @@ MonoBehaviour:
     - {x: -1.8, y: -1.5, z: 0}
     tutorials: 0300000004000000
     extraHeight: 0
-    environment: 0
+    environment: 2
   - terrain: {fileID: 3231532763752257256, guid: bdde090946963cf419e20652a732d14a,
       type: 3}
     stars:
@@ -1964,7 +1964,7 @@ MonoBehaviour:
     - {x: 4, y: 0, z: -3}
     tutorials: 
     extraHeight: 0
-    environment: 0
+    environment: 1
   - terrain: {fileID: 3231532763752257256, guid: 96d85ca4adbcf7247af9b668e9324a03,
       type: 3}
     stars:
@@ -1979,7 +1979,7 @@ MonoBehaviour:
     - {x: -5, y: -1.28, z: -1.28}
     tutorials: 
     extraHeight: 0
-    environment: 0
+    environment: 2
   - terrain: {fileID: 3231532763752257256, guid: 9dd41d015defb434aab3ca118092cfc6,
       type: 3}
     stars:
@@ -6848,7 +6848,7 @@ PrefabInstance:
     - target: {fileID: 2883780598532923490, guid: a886c50a65c47de4a8e398736bb14df0,
         type: 3}
       propertyPath: level
-      value: 8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2883780598532923490, guid: a886c50a65c47de4a8e398736bb14df0,
         type: 3}

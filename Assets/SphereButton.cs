@@ -54,6 +54,12 @@ public class SphereButton : MonoBehaviour
                 SceneData.Instance.level = level;
             }
             Music.Instance.setComplete(1);
+            if (SceneData.Instance.level > 6)
+            {
+                Music.Instance.setComplete(0);
+                Invoke("LoadMenu", 1.2f);
+                return;
+            }
             Invoke("LoadNext", 1.2f);
         }
     }

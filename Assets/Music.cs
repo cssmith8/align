@@ -34,14 +34,14 @@ public class Music : MonoBehaviour
     private void Start()
     {
         DontDestroyOnLoad(gameObject);
-        musicEvent = FMODUnity.RuntimeManager.CreateInstance("event:/Music");
-        musicEvent.start();
-        musicEvent.release();
+        //musicEvent = FMODUnity.RuntimeManager.CreateInstance("event:/Music");
+        //musicEvent.start();
+        //musicEvent.release();
     }
 
     private void OnDestroy()
     {
-        musicEvent.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        //musicEvent.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
     }
 
 
@@ -52,13 +52,13 @@ public class Music : MonoBehaviour
         {
             complete -= 0.5f * Time.fixedDeltaTime;
             complete = Mathf.Clamp(completeTarget, 0f, 1f);
-            musicEvent.setParameterByName("Complete", complete);
+            //musicEvent.setParameterByName("Complete", complete);
         }
         else if (complete < completeTarget)
         {
             complete += 0.5f * Time.fixedDeltaTime;
             complete = Mathf.Clamp(completeTarget, 0f, 1f);
-            musicEvent.setParameterByName("Complete", complete);
+            //musicEvent.setParameterByName("Complete", complete);
         }
     }
 
@@ -73,7 +73,7 @@ public class Music : MonoBehaviour
         string[] notes = { "C", "D", "E", "F", "G" };
         string note = notes[strength - 1];
 
-        FMODUnity.RuntimeManager.PlayOneShot("event:/" + note);
+        //FMODUnity.RuntimeManager.PlayOneShot("event:/" + note);
     }
 
     public void PlaySequence(int strength, float speed = 0.12f, bool instant = false)
@@ -102,7 +102,7 @@ public class Music : MonoBehaviour
             {
                 current = Time.timeSinceLevelLoad;
                 string note = notes[i];
-                FMODUnity.RuntimeManager.PlayOneShot("event:/" + note);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/" + note);
                 i++;
             }
             yield return null;
