@@ -20,7 +20,7 @@ Take full advantage of the VR capabilities to look at each puzzle from every ang
 
 Reach your controller out and align the stars to guide your player through the night.
 
-![align3](https://github.com/user-attachments/assets/018a965f-7385-416d-b66f-742d24d85998)
+![gameplay2](https://github.com/user-attachments/assets/357a816d-8cfc-4664-ae78-1d38ca70919b)
 
 
 # Credits
@@ -32,3 +32,5 @@ Reach your controller out and align the stars to guide your player through the n
 > Developed and tested on Meta Quest 2.
 
 > All visuals and sounds created by me or from licensed Unity asset packages.
+
+![align3](https://github.com/user-attachments/assets/018a965f-7385-416d-b66f-742d24d85998)
