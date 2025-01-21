@@ -24,7 +24,7 @@ public class Music : MonoBehaviour
 
     public int aliass = 1;
 
-    public FMOD.Studio.EventInstance musicEvent;
+    //public FMOD.Studio.EventInstance musicEvent;
 
     public void setComplete(float setting)
     {
